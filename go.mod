@@ -44,8 +44,11 @@ retract (
 )
 
 replace (
+
 	// use cosmos fork of keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
+	//use iavl patched version of cosmos sdk
+	github.com/cosmos/cosmos-sdk => github.com/reecepbcups/cosmos-sdk v0.45.16-fast.1
 
 	// use akash version of cosmos ledger api
 	github.com/cosmos/ledger-cosmos-go => github.com/akash-network/ledger-go/cosmos v0.14.4
